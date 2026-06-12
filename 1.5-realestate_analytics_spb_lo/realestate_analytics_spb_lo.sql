@@ -1,15 +1,15 @@
-/* Проект первого модуля: анализ данных для агентства недвижимости
+* Проект первого модуля: анализ данных для агентства недвижимости
  * Часть 2. Решаем ad hoc задачи
  * 
  * Автор: Сереженко Елена
-/
+*
 
 
 -- Данная часть кода носит исследовательский характер для себя и относится к 1-ой части проекта.
 
 -- Разброс периода объявлений
 
-SELECT MIN(first_day_exposition) AS first_day ,
+SELECT MIN(first_day_exposition) AS first_day,
 		MAX(first_day_exposition) AS last_day
 FROM real_estate.advertisement;
 
